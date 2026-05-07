@@ -9,7 +9,6 @@ examples/examples-api/**/*.py[cod]
 gmaps-output
 
 # local runtime artifacts
-*.exe
 *.csv
 *.log
 run-out.txt

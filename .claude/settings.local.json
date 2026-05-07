@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"D:\\\\Coding Projects\\\\google-maps-lead-scraper\\\\google-maps-scraper.exe\" -version 2>&1)",
+      "PowerShell($env:LOCALAPPDATA; Get-ChildItem \"$env:LOCALAPPDATA\\\\ms-playwright\" -ErrorAction SilentlyContinue -Depth 2 | Select-Object FullName | Select-Object -First 10)"
+    ]
+  }
+}
