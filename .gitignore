@@ -2,7 +2,17 @@ cache/
 vendor
 bin
 webdata/
+gmapsdata/
 examples/examples-api/map-outputs
 examples/examples-api/**/__pycache__/
 examples/examples-api/**/*.py[cod]
 gmaps-output
+
+# local runtime artifacts
+*.exe
+*.csv
+*.log
+run-out.txt
+out*.txt
+err*.txt
+*-log.txt
